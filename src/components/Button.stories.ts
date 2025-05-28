@@ -15,6 +15,19 @@ const meta = {
       type: "figma",
       url: "https://www.figma.com/design/6J5vPERb73r8aGFS3fNlp9/Design-system----Vuetify-Amis-HD?node-id=61-1255"
     }
+  },
+  argTypes: {
+    text: {
+      control: 'text',
+    },
+    variant: {
+      control: 'select',
+      options: ['text', 'outlined', 'tonal', 'flat', 'plain'],
+    },
+    size: {
+      control: 'select',
+      options: ['small', 'medium', 'large'],
+    }
   }
 } satisfies Meta<typeof Button>;
 
