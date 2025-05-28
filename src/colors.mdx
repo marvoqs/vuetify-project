@@ -1,0 +1,73 @@
+import { ColorItem, ColorPalette, Meta } from "@storybook/blocks";
+
+<Meta title="Colors" />
+
+<ColorPalette>
+  <ColorItem
+    title="Text"
+    subtitle="Text colors"
+    colors={{ 'Primary: brown': 'hsl(29, 32%, 18%)', 'Secondary: brown-800': 'hsl(29, 29%, 35%)', 'White: white': 'hsl(0, 0%, 100%)' }}
+  />
+  <ColorItem 
+    title="Action" 
+    subtitle="" 
+    colors={{ 'Primary: yellow': 'hsl(44, 100%, 67%)', 'Text: orange-600': 'hsl(21, 82%, 47%)', 'Focus: brown-700': 'hsl(29, 29%, 67%)', 'Focus Fill: brown-600': 'hsl(29, 48%, 86%)' }} 
+  />
+  <ColorItem 
+    title="Highlight" 
+    subtitle="" 
+    colors={{ 'Color fill: brown-400': 'hsl(27, 52%, 96%)', 'Color stroke: brown-600': 'hsl(29, 48%, 86%)', 'Neutral fill: white': 'hsl(0, 0%, 100%)', 'Neutral stroke, Divider: brown-400': 'hsl(27, 52%, 96%)' }} 
+  />
+  <ColorItem
+    title="Background"
+    subtitle=""
+    colors={{
+      'White: white': 'hsl(0, 0%, 100%)',
+      'Base: brown-400': 'hsl(27, 52%, 96%)',
+      'Illustration Stroke: brown-500': 'hsl(29, 61%, 90%)',
+    }}
+  />
+  <ColorItem
+    title="Icon"
+    subtitle=""
+    colors={{
+      'Fill 1: brown-500': 'hsl(29, 61%, 90%)',
+      'Fill 2: orange-500': 'hsl(21, 100%, 73%)',
+      'Fill 3: yellow-500': 'hsl(44, 100%, 81%)',
+      'Dark stroke: brown': 'hsl(29, 32%, 18%)'
+    }}
+  />
+   <ColorItem
+    title="State"
+    subtitle=""
+    colors={{
+      'Disabled-fill: gray-100': 'hsl(29, 14%, 89%)',
+      'Disabled: gray': 'hsl(30, 3%, 47%)',
+      'Success fill: green-100': 'hsl(85, 60%, 88%)',
+      'Success: green': 'hsl(147, 94%, 24%)',
+      'Error fill: red-100': 'hsl(0, 93%, 94%)',
+    }}
+  />
+  <ColorItem
+    title=""
+    subtitle=""
+    colors={{
+      'Error: red': 'hsl(0, 74%, 42%)',
+      'Warning fill: orange-100': 'hsl(34, 100%, 92%)',
+      'Warning: orange': 'hsl(17, 88%, 40%)',
+      'Info fill: blue-100': 'hsl(202, 68%, 91%)',
+      'Info: blue': 'hsl(200, 90%, 32%)',
+    }}
+  />
+  <ColorItem
+    title="Special"
+    subtitle=""
+    colors={{
+      'Blue (male): blue-500': 'hsl(200, 42%, 56%)',
+      'Magenta (female): magenta': 'hsl(322, 38%, 71%)',
+      'Shade: shade': 'hsla(26, 42%, 7%, 0.5)',
+      
+    }}
+  />
+
+</ColorPalette>
