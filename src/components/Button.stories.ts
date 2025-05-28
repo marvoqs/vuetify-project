@@ -6,6 +6,12 @@ import Button from './Button.vue';
 const meta = {
   title: 'DesignSystem/Button',
   component: Button,
+  parameters: {
+    design: {
+      type: "figma",
+      url: "https://www.figma.com/design/6J5vPERb73r8aGFS3fNlp9/Design-system----Vuetify-Amis-HD?node-id=61-1255"
+    }
+  }
 } satisfies Meta<typeof Button>;
 
 export default meta;
